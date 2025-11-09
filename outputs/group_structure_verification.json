@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "experiment": "432_stochastic_cascade",
+    "script": "verify_group_structures.g",
+    "date": "2025-11-09",
+    "gap_version": "4.12.2",
+    "provenance": "Loaded from persistent outputs, verified independently"
+  },
+  "group_432": {
+    "order": 432,
+    "structure": "(((C3 x C3) : Q8) : C3) : C2",
+    "forms_group": true
+  },
+  "group_54": {
+    "order": 54,
+    "structure": "((C3 x C3) : C3) : C2",
+    "smallgroup_id": [54,8],
+    "center_order": 3,
+    "center_structure": "C3",
+    "forms_group": true
+  },
+  "subgroup_relationship": {
+    "is_subgroup": true,
+    "index": 8
+  }
+}
