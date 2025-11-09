@@ -6,7 +6,7 @@
 **Computational verification code for**: "Doubly Stochastic Matrices Over F₃: Binary Trace Stratification and the Impossibility of Trace-2"
 
 **Author**: Oksana Sudoma
-**Status**: Publication-ready
+**Status**: Pre-print
 
 ---
 
