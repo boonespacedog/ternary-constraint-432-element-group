@@ -31,12 +31,12 @@
 \newcommand{\AGL}{\mathrm{AGL}}  % Affine general linear group
 \newcommand{\SL}{\mathrm{SL}}  % Special linear group
 
-\title{Doubly Stochastic Matrices Over $\F_3$: \\ Binary Trace Stratification and the Impossibility of Trace-2}
+\title{A Surprising Discovery in Doubly Stochastic Matrices Over $\F_3$: \\ The 432→54 Cascade Explains Trace-2 Impossibility\footnote{Version 2 of this manuscript. Version 1 was published on November 9, 2025 under DOI \texttt{10.5281/zenodo.17443365}. Version 2 updates the title for clarity; the body of the paper is unchanged. Current version DOI: \texttt{10.5281/zenodo.17616884}}}
 
 \author{Oksana Sudoma\\
 Independent Researcher}
 
-\date{\today}
+\date{November 15, 2025}
 
 \begin{document}
 
@@ -68,7 +68,7 @@ We establish four main theorems:
 \item \textbf{Theorem 4 (Subgroup Cascade)}: Row-stochastic matrices (row sums $\equiv 1$) form a 432-element group isomorphic to $\mathrm{AGL}(2,3)$, containing $\mathrm{DS}_3(\F_3)$ as index-8 subgroup with non-trivial center $C_3$.
 \end{itemize}
 
-All proofs are computational, executed using GAP (Groups, Algorithms, Programming) \cite{GAP4.12} and independently verified. Reproducible artifacts are available in the GitHub repository\footnote{GitHub: \url{https://github.com/boonespacedog/ternary-constraint-432-element-group}, Zenodo DOI: \texttt{10.5281/zenodo.17443365}}.
+All proofs are computational, executed using GAP (Groups, Algorithms, Programming) \cite{GAP4.12} and independently verified. Reproducible artifacts are available in the GitHub repository\footnote{GitHub: \url{https://github.com/boonespacedog/ternary-constraint-432-element-group}, Zenodo DOI: \texttt{10.5281/zenodo.17616884}}.
 
 \subsection{Computational Discovery Context}
 
@@ -587,7 +587,7 @@ All computational code, data, and reproducible artifacts are publicly archived a
   \item Python test suite (\texttt{tests/})
   \item Complete documentation (README.md with reproducibility protocol)
   \end{itemize}
-\item \textbf{Zenodo archive}: DOI \texttt{10.5281/zenodo.17443365} (permanent archival copy with version control)
+\item \textbf{Zenodo archive}: DOI \texttt{10.5281/zenodo.17616884} (version 2, permanent archival copy with version control)
 \end{itemize}
 
 Reproduction requires GAP 4.12.2+ and Python 3.9+. Expected runtime: 5-10 minutes on standard hardware. One-command verification: \texttt{python3 run\_all\_verifications.py}
